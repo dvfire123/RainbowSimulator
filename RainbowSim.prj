@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2252056382" file="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator\RainbowSim.prj" location="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator" name="RainbowSim" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2437828475" file="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator\RainbowSim.prj" location="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator" name="RainbowSim" target="target.mlapps" target-name="Package App">
     <param.appname>RainbowSim</param.appname>
     <param.authnamewatermark>David Ding</param.authnamewatermark>
     <param.email>davidyding19@gmail.com</param.email>
