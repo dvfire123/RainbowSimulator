@@ -1,0 +1,123 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2252056382" file="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator\RainbowSim.prj" location="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator" name="RainbowSim" target="target.mlapps" target-name="Package App">
+    <param.appname>RainbowSim</param.appname>
+    <param.authnamewatermark>David Ding</param.authnamewatermark>
+    <param.email>davidyding19@gmail.com</param.email>
+    <param.company>MathWorks</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Simulating a single light ray traveling through a spherical raindrop</param.summary>
+    <param.description>https://www.youtube.com/watch?v=t4G6Tpl08Jc&amp;ab_channel=DavidDing</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Simulink</item>
+      <item>Image Acquisition Toolbox</item>
+      <item>Image Processing Toolbox</item>
+      <item>Symbolic Math Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>2</item>
+      <item>78</item>
+      <item>17</item>
+      <item>15</item>
+    </param.products.id>
+    <param.products.version>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+      <item>24.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>b7c95f1d-6038-46ca-8b96-2f814a868aad</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\RainbowSim.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Calculations\getAngleBetweenTwoSlopes.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getAngleOfRefaction.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getAngleOfReflection.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getIncidentAngle.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getLineSeg2pts.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getLineSegSlope1pt.m</file>
+      <file>${PROJECT_ROOT}\Calculations\getNormalLine.m</file>
+      <file>${PROJECT_ROOT}\Calculations\solveIntersectionPt.m</file>
+      <file>${PROJECT_ROOT}\plotRainbowDiagram.m</file>
+      <file>${PROJECT_ROOT}\RainbowDiagram.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp" name="RainbowSimulator" optional="false">C:\Users\dding\OneDrive - MathWorks\Documents\MATLAB\RainbowApp\RainbowSimulator</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
