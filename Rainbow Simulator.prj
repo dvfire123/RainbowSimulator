@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>Simulating a single light ray traveling through a spherical raindrop</param.summary>
     <param.description>https://www.youtube.com/watch?v=t4G6Tpl08Jc&amp;ab_channel=DavidDing</param.description>
-    <param.screenshot />
+    <param.screenshot>C:\Users\dding\AppData\Local\Temp\tp5fd4e151_754e_4269_82bf_5748bfa8ebf1.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -37,7 +37,6 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.screenshot />
       <param.version />
       <param.platforms />
       <param.output />
